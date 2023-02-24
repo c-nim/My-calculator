@@ -43,7 +43,6 @@ operations.map((symbol) => {
 
 //when equals is pressed do the calculation and display total
 function calculation(symbol) {
-	let num = 0
 	if( symbol === '+') {
 		// changes the value to a decimal number then adds the current value
 		total += parseFloat(display.innerText)
